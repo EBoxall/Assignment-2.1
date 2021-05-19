@@ -22,6 +22,7 @@ else:
 
 break2 = str(input("BREAK TIME! enter anything to continue "))
 
+#creates a wordcount, and while the while loop isn't broken, ask the user to print out as many words as possible, then when the users prersses x stop the count and print his count number
 wordcount = 0
 
 while True:
@@ -33,4 +34,18 @@ while True:
   else:
     wordcount += 1
 
+break3 = str(input("BREAK TIME! enter anything to continue "))
 
+#creates a password and asks the user to input guesses until he gets the right answer
+password = ("Wafflehouse2for1deal")
+entryquestion = str(input("You must enter a password to proceed \n"))
+
+while True:
+  if entryquestion != password:
+    print("Wrong answer, I'm just going to enjoy my waffles now")
+    entryquestion = str(input("You must enter another password to proceed \n"))
+  else:
+    print("congrats! you may proceed")
+    break
+
+break4 = str(input("BREAK TIME! enter anything to continue "))
