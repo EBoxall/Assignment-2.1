@@ -49,3 +49,16 @@ while True:
     break
 
 break4 = str(input("BREAK TIME! enter anything to continue "))
+
+#creates an empty list of numbers that we will fill later, while the user hasn't inputted 10 numbers continue to ask until he is done. After inputting ten numbers print all the numbers bababooey done
+
+numbercount = 0
+numberlis = []
+
+while numbercount <= 9: #Lists/arrays start at Zero
+  number = (input("Input a number please:"))
+  numbercount += 1
+  numberlis.append(number)
+print("You have inputted: ")
+print(" ".join(numberlis))
+
